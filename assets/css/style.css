@@ -16,7 +16,7 @@ body{
     width: 100%;
 }
 header{
-    height: 100vh;
+    height: 85vh;
     width: 100%
 }
 
@@ -29,6 +29,22 @@ h2{ margin-top: 20px;
     font-weight: lighter;
 }
 
+h3{
+    font-size: 3em;
+    color: #fff;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: #fff;
+    line-height: 2.5em;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+
 /* --------------------------ENDE ALLGEMEINES ZEUG------------------------------- */
 /* --------------------------START HEADER UPPERPART------------------------------ */
 #header_upperpart{
@@ -36,6 +52,7 @@ h2{ margin-top: 20px;
     background-color: #fff;
     color: black;
     display: flex;
+    height: 85vh;
 }
 
 .left{
@@ -55,7 +72,7 @@ h2{ margin-top: 20px;
 /* --------------------------ENDE HEADER UPPERPART------------------------------ */
 /* ------------------------START HEADER - LOWERPART -----------------------------*/
 #header_lowerpart{
-    height: 15%;
+    height: 10vh;
     width: 100%;
     background-color: #2e2e2e;
     color: #fff;
@@ -64,6 +81,10 @@ h2{ margin-top: 20px;
     align-items: center;
     justify-content: space-between;
     font-size: 1.5em;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 #header_lowerpart img{
@@ -91,5 +112,47 @@ h2{ margin-top: 20px;
     text-decoration: underline;
     }
 /* ------------------------ENDE HEADER - LOWERPART --------------------------------*/
+/* ------------------------START MAIN - Section 1 --------------------------------*/
+#main-section-1{
+    width: 100%;
+    height: 100vh;
+    background-color: #2e2e2e;
+    color: black;
+    display: flex;
+}
+
+.main-left{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    margin-left: 35px;
+}
+
+.main-left img {
+    object-fit: contain;
+    height: 70vh;
+}
+
+.main-right{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/* ------------------------ENDE MAIN - Section 1 --------------------------------*/
+/* ------------------------START MAIN - Section 2 --------------------------------*/
+#main-section-2{
+    width: 100%;
+    height: 85vh;
+    background-color: #fff;
+    color: black;
+    display: flex;
+}
 
 
+/* ------------------------ENDE MAIN - Section 1 --------------------------------*/
