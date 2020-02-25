@@ -1,15 +1,95 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Work+Sans:300,400,500,700,800&display=swap');
 
 *{
-    margin:0;
-    padding:0;
+    margin:     0;
+    padding:    0;
 }
 
 /* -------------------------------ON HOLD----------------------------------------- */
 /* font-family: 'Work Sans',sans-serif; */
 /* Farbe: #2e2e2e / #fff / #000 / #1d2c2f  */
 /* -------------------------------ON HOLD----------------------------------------- */
+/* --------------------------START ALLGEMEINES ZEUG------------------------------- */
 
 body{
     font-family: 'Lora', sans-serif;
+    width: 100%;
 }
+header{
+    height: 100vh;
+    width: 100%
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{ margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+/* --------------------------ENDE ALLGEMEINES ZEUG------------------------------- */
+/* --------------------------START HEADER UPPERPART------------------------------ */
+#header_upperpart{
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    display: flex;
+}
+
+.left{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.right{
+    display:flex;
+    justify-content: flex-end;
+    object-fit: center/cover;
+    width:60%;
+}
+/* --------------------------ENDE HEADER UPPERPART------------------------------ */
+/* ------------------------START HEADER - LOWERPART -----------------------------*/
+#header_lowerpart{
+    height: 15%;
+    width: 100%;
+    background-color: #2e2e2e;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+#header_lowerpart img{
+    margin-left: 20px;
+    z-index: 1;
+}
+
+#header_lowerpart ul{
+    margin-right: 60px;
+}
+
+#header_lowerpart ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 80px;
+}
+
+#header_lowerpart ul li a{
+    color:#fff;
+    text-decoration: none;
+    }
+
+#header_lowerpart ul li a:hover{
+    color:#fff;
+    text-decoration: underline;
+    }
+/* ------------------------ENDE HEADER - LOWERPART --------------------------------*/
+
+
