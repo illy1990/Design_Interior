@@ -151,8 +151,62 @@ p {
     height: 85vh;
     background-color: #fff;
     color: black;
-    display: flex;
+} 
+
+#main-section-2-headlines{
+    display: block;
+    text-align: center;
+    margin: 15vh;
+}
+    
+#main-section-2-grid{
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40vh;
+    grid-gap: 2em;
+    grid-template-areas:
+    "fig1 fig2 fig3"
+    ;
 }
 
+figure{
+    display:    flex;
+    flex-wrap:  wrap;
+    justify-content: center;
+}
+
+figure img{
+    object-fit: contain;
+    height: 35vh;
+}
+
+figcaption{
+    margin: 0;
+    color: #2e2e2e;
+    opacity: 0.7;
+    font-family: 'Work Sans',sans-serif;
+}
+#figure1{
+    grid-area:  fig1;
+    margin-left: 2em;
+}
+#figure2{
+    grid-area:  fig2;
+}
+#figure3{
+    grid-area:  fig3;
+    margin-right: 2em;
+}
+#movie{
+    grid-area:  movie;
+    display:    flex;
+}
+
+iframe{
+    display: block;
+    position: center;
+}
 
 /* ------------------------ENDE MAIN - Section 1 --------------------------------*/
