@@ -1,1 +1,15 @@
-h1 {color:pink}
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Work+Sans:300,400,500,700,800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/* -------------------------------ON HOLD----------------------------------------- */
+/* font-family: 'Work Sans',sans-serif; */
+/* Farbe: #2e2e2e / #fff / #000 / #1d2c2f  */
+/* -------------------------------ON HOLD----------------------------------------- */
+
+body{
+    font-family: 'Lora', sans-serif;
+}
